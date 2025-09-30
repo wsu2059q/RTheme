@@ -1,25 +1,25 @@
 const config = {
-    siteName: "RavelloH's Blog", // 站点名
-    siteShortname: "RH's Blog", // 站点简称
-    author: 'RavelloH', // 作者名
-    description: "RavelloH's Blog", // 站点描述
+    siteName: "YinXinche’s Post — Like My MC World Backup", // 站点名
+    siteShortname: "YinXinche’s Post", // 站点简称
+    author: 'YinXinche', // 作者名
+    description: "YinXinche's Blog", // 站点描述
     sign: 'Debug the life.', // 站点签名
-    siteURL: 'https://ravelloh.top/', // 站点地址,带有尾缀斜杠
+    siteURL: 'https://www.anran.xyz/', // 站点地址,带有尾缀斜杠
     pwaStartURL: '/?mode=pwa', // PWA启动地址
     lang: 'zh-CN', // 站点语言
     iconImage: 'icon.png', // 站点图标
-    githubUserName: 'RavelloH', // github用户名
-    mail: 'ravelloh@outlook.com', // 邮箱
+    githubUserName: 'wsu2059q', // github用户名
+    mail: 'suyu@erisdev.com', // 邮箱
     copyrightStartTime: '2019', // 建站开始年份
     siteBirthday: '2/03/2019 20:52:00', // 站点建立时间
     siteHelloWords: 'Beginning of meditation.', // 站点欢迎语
     defaultScript: '<script>function main(){}</script>', // 默认站点脚本
     remotePath: '', // 远程资源路径，主站点不填
-    trustDomain: ['ravelloh.top'],
+    trustDomain: ['anran.xyz'],
     musicApi: 'https://music.api.ravelloh.top/',
-    playList: '504715858',
+    playList: '2348607226',
     screenshotApi: 'https://screenshot.ravelloh.top/',
-    twitterUsername: '@ravelohh',
+    twitterUsername: '@wsu2059',
     nav: [
         // 菜单导航设置
         {
@@ -62,7 +62,7 @@ const config = {
         // footer icon
         {
             id: 'icon-github',
-            href: 'https://github.com/ravelloh',
+            href: 'https://github.com/wsu2059q',
             icon: 'ri-github-line',
             additions: {
                 target: '_blank',
@@ -72,12 +72,12 @@ const config = {
         },
         {
             id: 'icon-studio',
-            href: 'https://xeocnet-studio.github.io/',
+            href: 'https://github.com/RavelloH/RTheme',
             icon: 'ri-building-2-line',
             additions: {
                 target: '_blank',
-                dataUmamiEvent: 'footer-工作室',
-                ariaLabel: 'my studio',
+                dataUmamiEvent: 'power',
+                ariaLabel: 'Next-gen modern geeky versatile horizontal blog system',
             },
         },
     ],
@@ -153,51 +153,51 @@ const config = {
             href: '/account/signup',
             icon: 'ri-user-add-fill',
         },
-        {
-            name: 'ANALYTICS',
-            href: 'https://analytics.ravelloh.top/share/4kyzPMCCpfG9Vd1k/blog',
-            icon: 'ri-bar-chart-box-fill',
-        },
-        {
-            name: 'DRIVE',
-            href: 'https://drive.ravelloh.top/',
-            icon: 'ri-hard-drive-3-fill',
-        },
-        {
-            name: 'UPTIME',
-            href: 'https://monitor.ravelloh.top/',
-            icon: 'ri-timer-flash-fill',
-        },
-        {
-            name: 'CHATROOM',
-            href: 'https://chat.ravelloh.top/ravelloh',
-            icon: 'ri-video-chat-fill',
-        },
-        {
-            name: 'TIMEPULSE',
-            href: 'https://timepulse.ravelloh.top/',
-            icon: 'ri-alarm-fill',
-        },
-        {
-            name: 'ZESTSEND',
-            href: 'https://zestsend.ravelloh.top/',
-            icon: 'ri-file-upload-fill',
-        },
-        {
-            name: 'NEWS',
-            href: 'https://news.ravelloh.top/',
-            icon: 'ri-newspaper-fill',
-        },
-        {
-            name: 'PHOTOS',
-            href: 'https://photos.ravelloh.top/',
-            icon: 'ri-image-2-fill',
-        },
-        {
-            name: 'PSGAME',
-            href: 'https://psgamespider.ravelloh.top/',
-            icon: 'ri-playstation-fill',
-        },
+        // {
+        //     name: 'ANALYTICS',
+        //     href: 'https://analytics.ravelloh.top/share/4kyzPMCCpfG9Vd1k/blog',
+        //     icon: 'ri-bar-chart-box-fill',
+        // },
+        // {
+        //     name: 'DRIVE',
+        //     href: 'https://drive.ravelloh.top/',
+        //     icon: 'ri-hard-drive-3-fill',
+        // },
+        // {
+        //     name: 'UPTIME',
+        //     href: 'https://monitor.ravelloh.top/',
+        //     icon: 'ri-timer-flash-fill',
+        // },
+        // {
+        //     name: 'CHATROOM',
+        //     href: 'https://chat.ravelloh.top/ravelloh',
+        //     icon: 'ri-video-chat-fill',
+        // },
+        // {
+        //     name: 'TIMEPULSE',
+        //     href: 'https://timepulse.ravelloh.top/',
+        //     icon: 'ri-alarm-fill',
+        // },
+        // {
+        //     name: 'ZESTSEND',
+        //     href: 'https://zestsend.ravelloh.top/',
+        //     icon: 'ri-file-upload-fill',
+        // },
+        // {
+        //     name: 'NEWS',
+        //     href: 'https://news.ravelloh.top/',
+        //     icon: 'ri-newspaper-fill',
+        // },
+        // {
+        //     name: 'PHOTOS',
+        //     href: 'https://photos.ravelloh.top/',
+        //     icon: 'ri-image-2-fill',
+        // },
+        // {
+        //     name: 'PSGAME',
+        //     href: 'https://psgamespider.ravelloh.top/',
+        //     icon: 'ri-playstation-fill',
+        // },
     ],
     umami: {
         url: 'https://analytics.ravelloh.top/',
